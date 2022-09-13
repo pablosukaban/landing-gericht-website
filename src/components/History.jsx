@@ -16,7 +16,9 @@ const History = () => {
                         className={'w-[391px] '}
                     />
                 </div>
-                <div className={'absolute top-50 left-50 z-20 '}>
+                <div
+                    className={'absolute top-50 left-50 z-20 md:inline hidden '}
+                >
                     <img
                         src={'src/assets/knife.png'}
                         alt={'knife photo'}
@@ -25,15 +27,14 @@ const History = () => {
                 </div>
                 <div
                     className={
-                        'max-w-[1300px] mx-auto flex justify-center items-end z-20 gap-[254px]'
+                        'max-w-[1300px] mx-auto flex md:flex-row flex-col-reverse justify-center  md:items-end items-center z-20 md:gap-[254px] gap-5 md:px-0 px-10'
                     }
                 >
                     <div
                         className={
-                            'flex flex-col justify-center items-end gap-8'
+                            'flex flex-col justify-center md:items-end items-center gap-8'
                         }
                     >
-
                         <div className={'rotate-180'}>
                             <img
                                 src={'src/assets/spoon.svg'}
@@ -49,7 +50,9 @@ const History = () => {
                         <Button text={'Know More'} />
                     </div>
                     <div
-                        className={'flex flex-col justify-center items-start '}
+                        className={
+                            'flex flex-col justify-center md:items-start items-center'
+                        }
                     >
                         <Title text={'Our History'} />
                         <div className={''}>
@@ -64,7 +67,10 @@ const History = () => {
                             }
                             style={'text-start mt-8'}
                         />
-                        <Button text={'Know More'} styles={'mt-8'} />
+                        <Button
+                            text={'Know More'}
+                            styles={'mt-8 md:block hidden'}
+                        />
                     </div>
                 </div>
             </div>
