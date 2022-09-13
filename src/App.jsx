@@ -1,13 +1,12 @@
 import React from 'react';
-import { Header } from './components';
-function App() {
+import { Navbar } from './components/index.js';
+
+const App = () => {
     return (
-        <div className="min-h-screen bg-black px-[7.5rem]">
-            <div className="w-full py-8">
-                <Header />
-            </div>
+        <div className='min-h-screen bg-secondary '>
+            <Navbar />
         </div>
     );
-}
+};
 
 export default App;

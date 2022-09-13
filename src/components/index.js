@@ -1,3 +1,4 @@
-import Header from './Navbar.jsx';
+import Navbar from './Navbar.jsx';
+import Button from './Button.jsx';
 
-export { Header };
+export { Button, Navbar };
