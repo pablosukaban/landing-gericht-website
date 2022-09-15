@@ -66,7 +66,7 @@ const TodaySpecial = () => {
         <section className={'text-white'}>
             <div
                 className={
-                    'min-h-screen max-w-[1300px] mx-auto flex flex-col justify-center items-center gap-16 py-8'
+                    'min-h-screen max-w-[1300px] mx-auto flex flex-col justify-center items-center gap-8 py-8'
                 }
             >
                 <div>
