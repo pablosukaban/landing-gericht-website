@@ -2,13 +2,13 @@ import React from 'react';
 
 const SubTitle = ({ text = 'Hello', style }) => {
     return (
-        <div>
-            <h3
-                className={`font-cormorant font-bold text-[1.4375rem] ${style}`}
-            >
+        <div className={`${style}`}>
+            <h3 className={`font-cormorant font-bold text-[1.4375rem] text-white`}>
                 {text}
             </h3>
-            <img src={'src/assets/spoon.svg'} alt={'spoon icon'} />
+            <div>
+                <img src={'src/assets/spoon.svg'} alt={'spoon icon'} />
+            </div>
         </div>
     );
 };
