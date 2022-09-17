@@ -31,7 +31,7 @@ const SpecialMenuList = ({ title, list }) => {
                         <div className={'flex justify-between items-center'}>
                             <span
                                 className={
-                                    'flex-1 font-cormorant text-primary text-[1.4375rem] tracking-wider capitalize font-bold leading-[30px] mr-8 '
+                                    'flex-1 font-cormorant text-primary text-[1.4375rem] tracking-wider capitalize font-bold leading-[30px] lg:mr-8 mr-4'
                                 }
                             >
                                 {item.title}
@@ -41,7 +41,7 @@ const SpecialMenuList = ({ title, list }) => {
                             />
                             <span
                                 className={
-                                    'font-cormorant text-[1.4375rem] tracking-wider capitalize font-bold leading-[130%] ml-8'
+                                    'font-cormorant text-[1.4375rem] tracking-wider capitalize font-bold leading-[130%] lg:ml-8 ml-4'
                                 }
                             >
                                 {item.price}
@@ -66,19 +66,19 @@ const TodaySpecial = () => {
         <section className={'text-white'}>
             <div
                 className={
-                    'min-h-screen max-w-[1300px] mx-auto flex flex-col justify-center items-center gap-8 py-8'
+                    'min-h-screen max-w-[1300px] mx-auto flex flex-col justify-center items-center gap-8 py-8 2xl:px-0 px-10 '
                 }
             >
                 <div>
                     <SubTitle text={'Menu that fits you palette'} style={'leading-[30px] flex flex-col justify-center items-center gap-4'} />
                     <Title text={`Today's Special`} style={'leading-[83px]'}/>
                 </div>
-                <div className={'flex justify-center items-center gap-8 '}>
+                <div className={'flex md:flex-row flex-col justify-center items-center gap-8 '}>
                     <SpecialMenuList
                         title={'Wine & Beer'}
                         list={data.wines}
                     ></SpecialMenuList>
-                    <div className={'flex-1'}>
+                    <div className={'flex-1 hidden lg:block'}>
                         <img
                             src={'src/assets/menu.png'}
                             className={'w-full object-contain'}
