@@ -6,15 +6,15 @@ const Chef = () => {
         <section>
             <div
                 className={
-                    'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover '
+                    'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover lg:pt-0 pt-10'
                 }
             >
                 <div
                     className={
-                        'min-h-screen max-w-[1300px] mx-auto flex justify-center items-center  gap-[96px]'
+                        'min-h-screen lg:max-w-[1300px] max-w-[700px] mx-auto flex lg:flex-row flex-col justify-center items-center lg:gap-[96px] gap-10 lg:px-0 px-10 '
                     }
                 >
-                    <div className={'flex-1'}>
+                    <div className={'flex-1 lg:max-w-[80vw] max-w-lg'}>
                         <img src={'src/assets/chef.png'} alt={'chef picture'} />
                     </div>
                     <div
