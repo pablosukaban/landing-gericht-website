@@ -1,10 +1,30 @@
 import React from 'react';
-import { Navbar } from './components/index.js';
+import {
+    Header,
+    Navbar,
+    TodaySpecial,
+    History,
+    Chef,
+    VideoPlayer,
+    Laurels,
+    FindUs,
+    Footer,
+} from './components/index.js';
 
 const App = () => {
     return (
-        <div className='min-h-screen bg-secondary '>
-            <Navbar />
+        <div className="bg-secondary overflow-x-hidden">
+            <div className={'min-h-screen'}>
+                <Navbar />
+                <Header />
+            </div>
+            <History />
+            <TodaySpecial />
+            <Chef />
+            <VideoPlayer />
+            <Laurels />
+            <FindUs />
+            <Footer />
         </div>
     );
 };

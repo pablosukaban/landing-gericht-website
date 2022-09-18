@@ -3,11 +3,7 @@ import { Button, Paragraph, SubTitle, Title } from './index.js';
 
 const FindUs = () => {
     return (
-        <section
-            className={
-                'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover relative'
-            }
-        >
+        <section>
             <div className={'max-w-[1300px] mx-auto'}>
                 <div
                     className={
