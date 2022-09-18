@@ -41,7 +41,7 @@ const Laurels = () => {
         >
             <div
                 className={
-                    'min-h-screen max-w-[1300px] mx-auto flex justify-center items-center 2xl:px-0 px-10 '
+                    'min-h-screen max-w-[1300px] mx-auto flex justify-center items-center 2xl:px-0 px-10 md:py-0 py-14'
                 }
             >
                 <div
