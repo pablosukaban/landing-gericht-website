@@ -7,7 +7,7 @@ const History = () => {
         <section id={'history'}>
             <div
                 className={
-                    'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover w-full h-screen flex justify-center items-center relative z-0'
+                    'bg-[url("public/bg.png")] bg-center bg-no-repeat bg-cover w-full h-screen flex justify-center items-center relative z-0'
                 }
             >
                 <div className={'absolute top-50 left-50 z-10'}>

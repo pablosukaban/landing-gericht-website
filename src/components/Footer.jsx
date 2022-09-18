@@ -47,7 +47,7 @@ const Footer = () => {
     return (
         <section
             className={
-                'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover relative text-white'
+                'bg-[url("public/bg.png")] bg-center bg-no-repeat bg-cover relative text-white'
             }
         >
             <div className={'max-w-[1300px] mx-auto '}>

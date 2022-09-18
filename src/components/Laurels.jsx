@@ -36,7 +36,7 @@ const Laurels = () => {
     return (
         <section
             className={
-                'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover relative'
+                'bg-[url("public/bg.png")] bg-center bg-no-repeat bg-cover relative'
             }
         >
             <div
