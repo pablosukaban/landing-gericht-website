@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, SubTitle, Title } from './index.js';
-import { data } from '../constants/';
+import { data, images } from '../constants/';
 
 // {
 //     title: 'Chapel Hill Shiraz',
@@ -24,10 +24,7 @@ const SpecialMenuList = ({ title, list }) => {
                 }
             >
                 {list.map((item) => (
-                    <li
-                        key={item.title}
-                        className={'w-full flex flex-col '}
-                    >
+                    <li key={item.title} className={'w-full flex flex-col '}>
                         <div className={'flex justify-between items-center'}>
                             <span
                                 className={
@@ -70,17 +67,26 @@ const TodaySpecial = () => {
                 }
             >
                 <div>
-                    <SubTitle text={'Menu that fits you palette'} style={'leading-[30px] flex flex-col justify-center items-center gap-4'} />
-                    <Title text={`Today's Special`} style={'leading-[83px]'}/>
+                    <SubTitle
+                        text={'Menu that fits you palette'}
+                        style={
+                            'leading-[30px] flex flex-col justify-center items-center gap-4'
+                        }
+                    />
+                    <Title text={`Today's Special`} style={'leading-[83px]'} />
                 </div>
-                <div className={'flex md:flex-row flex-col justify-center items-center gap-8 '}>
+                <div
+                    className={
+                        'flex md:flex-row flex-col justify-center items-center gap-8 '
+                    }
+                >
                     <SpecialMenuList
                         title={'Wine & Beer'}
                         list={data.wines}
                     ></SpecialMenuList>
                     <div className={'flex-1 hidden lg:block'}>
                         <img
-                            src={'src/assets/menu.png'}
+                            src={images.menu}
                             className={'w-full object-contain'}
                             alt={'special menu drinks'}
                         />

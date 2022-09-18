@@ -1,6 +1,6 @@
 import React from 'react';
 import { SubTitle, Title } from './index.js';
-import { data } from '../constants';
+import { data, images } from '../constants';
 
 const LaurelItem = ({ imgUrl, title, subtitle }) => {
     return (
@@ -50,7 +50,7 @@ const Laurels = () => {
                     }
                 >
                     <img
-                        src={'src/assets/logo.png'}
+                        src={images.logo}
                         alt={'logo image'}
                         className={'w-full '}
                     />
@@ -89,7 +89,7 @@ const Laurels = () => {
                         }
                     >
                         <img
-                            src={'src/assets/laurels.png'}
+                            src={images.laurels}
                             alt={'laurel meal'}
                             className={'w-full object-contain '}
                         />

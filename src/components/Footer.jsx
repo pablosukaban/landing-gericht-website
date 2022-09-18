@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Paragraph, SubTitle, Title } from './index.js';
+import { images } from '../constants';
 
 const SubscribeForm = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Paragraph, Title } from './index.js';
+import { images } from '../constants/index.js';
 
 const History = () => {
     return (
@@ -11,7 +12,7 @@ const History = () => {
             >
                 <div className={'absolute top-50 left-50 z-10'}>
                     <img
-                        src={'src/assets/G.png'}
+                        src={images.G}
                         alt={'g letter'}
                         className={'w-[391px] '}
                     />
@@ -20,7 +21,7 @@ const History = () => {
                     className={'absolute top-50 left-50 z-20 md:inline hidden '}
                 >
                     <img
-                        src={'src/assets/knife.png'}
+                        src={images.knife}
                         alt={'knife photo'}
                         className={'w-[84px]'}
                     />
@@ -36,10 +37,7 @@ const History = () => {
                         }
                     >
                         <div className={'rotate-180'}>
-                            <img
-                                src={'src/assets/spoon.svg'}
-                                alt={'spoon icon'}
-                            />
+                            <img src={images.spoon} alt={'spoon icon'} />
                         </div>
                         <Paragraph
                             text={
@@ -56,10 +54,7 @@ const History = () => {
                     >
                         <Title text={'Our History'} />
                         <div className={''}>
-                            <img
-                                src={'src/assets/spoon.svg'}
-                                alt={'spoon icon'}
-                            />
+                            <img src={images.spoon} alt={'spoon icon'} />
                         </div>
                         <Paragraph
                             text={

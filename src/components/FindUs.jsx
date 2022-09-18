@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Paragraph, SubTitle, Title } from './index.js';
+import { images } from '../constants/index.js';
 
 const FindUs = () => {
     return (
@@ -54,7 +55,7 @@ const FindUs = () => {
                     <div className={'flex justify-center items-center'}>
                         <div className={'max-w-[667px]'}>
                             <img
-                                src={'src/assets/findus.png'}
+                                src={images.findus}
                                 alt={'find us cocktail'}
                                 className={'w-full object-contain'}
                             />

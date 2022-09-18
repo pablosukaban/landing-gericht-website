@@ -1,4 +1,5 @@
 import React from 'react';
+import { images, meal } from '../constants/index.js';
 
 const VideoPlayer = () => {
     return (
@@ -14,7 +15,7 @@ const VideoPlayer = () => {
                         className={'absolute top-0 left-0 w-full h-full'}
                     >
                         <source
-                            src={'src/assets/meal.mp4'}
+                            src={meal}
                             type={'video/mp4'}
                         />
                     </video>

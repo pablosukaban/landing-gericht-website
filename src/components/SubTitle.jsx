@@ -1,4 +1,5 @@
 import React from 'react';
+import { images } from '../constants/index.js';
 
 const SubTitle = ({ text = 'Hello', style }) => {
     return (
@@ -7,7 +8,7 @@ const SubTitle = ({ text = 'Hello', style }) => {
                 {text}
             </h3>
             <div>
-                <img src={'src/assets/spoon.svg'} alt={'spoon icon'} />
+                <img src={images.spoon} alt={'spoon icon'} />
             </div>
         </div>
     );

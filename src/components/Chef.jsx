@@ -1,13 +1,12 @@
 import React from 'react';
 import { Paragraph, SubTitle, Title } from './index.js';
+import { images } from '../constants';
 
 const Chef = () => {
     return (
         <section>
             <div
-                className={
-                    'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover lg:pt-0 pt-10'
-                }
+                className={`bg-[url("${images.bg}")] bg-center bg-no-repeat bg-cover lg:pt-0 pt-10`}
             >
                 <div
                     className={
@@ -15,7 +14,7 @@ const Chef = () => {
                     }
                 >
                     <div className={'flex-1 lg:max-w-[80vw] max-w-lg'}>
-                        <img src={'src/assets/chef.png'} alt={'chef picture'} />
+                        <img src={images.chef} alt={'chef picture'} />
                     </div>
                     <div
                         className={
@@ -52,7 +51,7 @@ const Chef = () => {
                         </div>
                         <div className={'w-[235px]'}>
                             <img
-                                src={'src/assets/sign.png'}
+                                src={images.sign}
                                 alt={"chef's sign"}
                                 className={'w-full object-contain'}
                             />

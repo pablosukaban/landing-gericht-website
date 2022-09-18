@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Paragraph, SubTitle, Title } from './index.js';
+import { images } from '../constants/index.js';
 
 const Header = () => {
     return (
@@ -22,7 +23,7 @@ const Header = () => {
                 <div className={'flex justify-start items-center min-w-[400px] '}>
                     <img
                         className={'w-full'}
-                        src={'src/assets/welcome.png'}
+                        src={images.welcome}
                         alt={'welcome meal image'}
                     />
                 </div>
