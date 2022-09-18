@@ -4,10 +4,10 @@ import { Button, Paragraph, SubTitle, Title } from './index.js';
 const SubscribeForm = () => {
     return (
         <div className={'bg-[#0C0C0C] border border-primary/20'}>
-            <div className={'max-w-[800px] mx-auto py-16'}>
+            <div className={'max-w-[800px] mx-auto py-16 lg:px-0 px-8'}>
                 <div
                     className={
-                        'flex flex-col justify-center items-center gap-16'
+                        'flex flex-col justify-center items-center md:gap-16 gap-24'
                     }
                 >
                     <div
@@ -25,7 +25,7 @@ const SubscribeForm = () => {
                     </div>
                     <div
                         className={
-                            'flex justify-center items-center w-full gap-8'
+                            'flex md:flex-row flex-col justify-center items-center w-full gap-8'
                         }
                     >
                         <input
@@ -49,10 +49,14 @@ const Footer = () => {
                 'bg-[url("src/assets/bg.png")] bg-center bg-no-repeat bg-cover relative text-white'
             }
         >
-            <div className={'max-w-[1300px] mx-auto'}>
-                <div className={'min-h-screen flex flex-col'}>
+            <div className={'max-w-[1300px] mx-auto '}>
+                <div className={'min-h-screen flex flex-col '}>
                     <SubscribeForm />
-                    <div className={'flex justify-between items-center text-center mt-32'}>
+                    <div
+                        className={
+                            'flex justify-between items-center md:flex-row flex-col text-center flex-wrap 2xl:px-0 px-12 mt-32 xl:gap-0 gap-8'
+                        }
+                    >
                         <div className={'flex-1'}>
                             <h3
                                 className={
@@ -78,15 +82,21 @@ const Footer = () => {
                                 +1 212-555-1230
                             </p>
                         </div>
-                        <div className={'flex-1'} >
+                        <div className={'flex-1'}>
                             <Title text={'Gerícht'} />
                             <SubTitle
                                 text={
                                     '"The best way to find yourself is to lose yourself in the service of others.”'
                                 }
-                                style={'text-white text-base font-normal flex flex-col justify-center items-center gap-2 leading-[28px]'}
+                                style={
+                                    'text-white text-base font-normal flex flex-col justify-center items-center gap-2 leading-[28px]'
+                                }
                             />
-                            <div className={'flex justify-center items-center gap-4 mt-4'}>
+                            <div
+                                className={
+                                    'flex justify-center items-center gap-4 mt-4'
+                                }
+                            >
                                 <div>
                                     <img
                                         src={'src/assets/facebook.svg'}
@@ -135,7 +145,7 @@ const Footer = () => {
                     </div>
                     <footer
                         className={
-                            'font-openSans text-dimWhite font-normal text-base tracking-wider text-center mt-auto mb-16'
+                            'font-openSans text-dimWhite font-normal text-base tracking-wider text-center md:mt-auto mt-16 mb-16'
                         }
                     >
                         2022 Gerícht. All Rights reserved.
