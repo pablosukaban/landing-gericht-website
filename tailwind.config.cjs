@@ -14,7 +14,7 @@ module.exports = {
                 openSans: ['Open Sans', 'sans-serif'],
             },
             backgroundImage: {
-                image: "url('src/assets/bg.png')",
+                image: 'url("/src/assets/bg.png")',
             },
         },
     },
