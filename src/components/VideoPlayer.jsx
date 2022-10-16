@@ -1,5 +1,5 @@
 import React from 'react';
-import { images, meal } from '../constants/index.js';
+import { meal } from '../constants/index.js';
 
 const VideoPlayer = () => {
     return (

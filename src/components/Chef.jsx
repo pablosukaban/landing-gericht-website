@@ -6,7 +6,7 @@ const Chef = () => {
     return (
         <section>
             <div
-                className={`bg-[url("${images.bg}")] bg-center bg-no-repeat bg-cover lg:pt-0 pt-10`}
+                className={`bg-image bg-center bg-no-repeat bg-cover lg:pt-0 pt-10`}
             >
                 <div
                     className={

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Paragraph, SubTitle, Title } from './index.js';
-import { images } from '../constants';
 
 const SubscribeForm = () => {
     return (
@@ -47,7 +46,7 @@ const Footer = () => {
     return (
         <section
             className={
-                'bg-[url("public/bg.png")] bg-center bg-no-repeat bg-cover relative text-white'
+                'bg-image bg-center bg-no-repeat bg-cover relative text-white'
             }
         >
             <div className={'max-w-[1300px] mx-auto '}>

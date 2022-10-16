@@ -4,7 +4,7 @@ import { data, images } from '../constants';
 
 const LaurelItem = ({ imgUrl, title, subtitle }) => {
     return (
-        <div className={`flex justify-center items-center gap-8 `}>
+        <div className={` flex justify-center items-center gap-8 `}>
             <div className={' flex justify-center items-center'}>
                 <img
                     src={imgUrl}
@@ -35,9 +35,7 @@ const LaurelItem = ({ imgUrl, title, subtitle }) => {
 const Laurels = () => {
     return (
         <section
-            className={
-                'bg-[url("public/bg.png")] bg-center bg-no-repeat bg-cover relative'
-            }
+            className={'bg-image bg-center bg-no-repeat bg-cover relative'}
         >
             <div
                 className={
@@ -76,6 +74,7 @@ const Laurels = () => {
                         >
                             {data.awards.map((item, index) => (
                                 <LaurelItem
+                                    key={item}
                                     id={item.title}
                                     {...item}
                                     index={index}
