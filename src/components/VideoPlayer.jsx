@@ -14,10 +14,7 @@ const VideoPlayer = () => {
                         preload={'metadata'}
                         className={'absolute top-0 left-0 w-full h-full'}
                     >
-                        <source
-                            src={meal}
-                            type={'video/mp4'}
-                        />
+                        <source src={meal} type={'video/mp4'} />
                     </video>
                 </div>
             </div>

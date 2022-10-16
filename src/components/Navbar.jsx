@@ -49,11 +49,11 @@ const Navbar = () => {
                         'flex justify-center items-center gap-[50px] font-openSans font-semibold font-base capitalize tracking-wider'
                     }
                 >
-                    <a target={'_blank'} href={'#'}>
+                    <a target={'_blank'} href={'#'} rel="noreferrer">
                         Log in / Registration
                     </a>
                     <div className={'w-[1px] h-[30px] bg-gray-600'} />
-                    <a target={'_blank'} href={'#'}>
+                    <a target={'_blank'} href={'#'} rel="noreferrer">
                         Book Table
                     </a>
                 </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
                         'flex justify-center items-center md:flex-row flex-col gap-5 font-openSans font-semibold font-base capitalize tracking-wider'
                     }
                 >
-                    <a target={'_blank'} href={'#'}>
+                    <a target={'_blank'} href={'#'} rel="noreferrer">
                         Log in / Registration
                     </a>
                     <div
@@ -85,7 +85,7 @@ const Navbar = () => {
                             'md:block hidden w-[1px] h-[30px] bg-gray-600'
                         }
                     />
-                    <a target={'_blank'} href={'#'}>
+                    <a target={'_blank'} href={'#'} rel="noreferrer">
                         Book Table
                     </a>
                 </div>

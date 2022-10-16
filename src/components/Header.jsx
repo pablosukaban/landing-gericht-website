@@ -5,8 +5,16 @@ import { images } from '../constants/index.js';
 const Header = () => {
     return (
         <header className={'w-full text-white pt-12'}>
-            <div className={'flex lg:flex-row flex-col max-w-screen-2xl items-center px-[190px] mx-auto xl:gap-[180px] gap-10'}>
-                <div className={'flex flex-col justify-center items-start max-w-[453px]'}>
+            <div
+                className={
+                    'flex lg:flex-row flex-col max-w-screen-2xl items-center px-[190px] mx-auto xl:gap-[180px] gap-10'
+                }
+            >
+                <div
+                    className={
+                        'flex flex-col justify-center items-start max-w-[453px]'
+                    }
+                >
                     <SubTitle text={'Chase the new Flavour'} style={''} />
                     <Title
                         text={'The key to Fine dining'}
@@ -18,9 +26,11 @@ const Header = () => {
                         }
                         style={'mt-8'}
                     />
-                    <Button text={'Explore Menu'} styles={'mt-8'}/>
+                    <Button text={'Explore Menu'} styles={'mt-8'} />
                 </div>
-                <div className={'flex justify-start items-center min-w-[400px] '}>
+                <div
+                    className={'flex justify-start items-center min-w-[400px] '}
+                >
                     <img
                         className={'w-full'}
                         src={images.welcome}
