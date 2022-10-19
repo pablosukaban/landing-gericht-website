@@ -3,7 +3,7 @@ import { meal } from '../constants/index.js';
 
 const VideoPlayer = () => {
     return (
-        <section>
+        <section className="min-h-screen">
             <div className={'max-w-full mt-12 lg:mt-0'}>
                 <div className={'relative aspect-video'}>
                     <video

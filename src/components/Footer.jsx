@@ -3,7 +3,7 @@ import { Button, Paragraph, SubTitle, Title } from './index.js';
 
 const SubscribeForm = () => {
     return (
-        <div className={'bg-[#0C0C0C] border border-primary/20'}>
+        <div className={'bg-[#0C0C0C] border border-primary/20 mt-4'}>
             <div className={'max-w-[800px] mx-auto py-16 lg:px-0 px-8'}>
                 <div
                     className={

@@ -4,7 +4,7 @@ import { images } from '../constants/index.js';
 
 const History = () => {
     return (
-        <section id={'history'}>
+        <section id={'history'} className="min-h-screen">
             <div
                 className={
                     'bg-image bg-center bg-no-repeat bg-cover w-full h-screen flex justify-center items-center relative z-0'

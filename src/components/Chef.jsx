@@ -4,7 +4,7 @@ import { images } from '../constants';
 
 const Chef = () => {
     return (
-        <section>
+        <section className="min-h-screen">
             <div
                 className={`bg-image bg-center bg-no-repeat bg-cover lg:pt-0 pt-10`}
             >

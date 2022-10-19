@@ -60,7 +60,7 @@ const SpecialMenuList = ({ title, list }) => {
 
 const TodaySpecial = () => {
     return (
-        <section className={'text-white'}>
+        <section className={'text-white min-h-screen'}>
             <div
                 className={
                     'min-h-screen max-w-[1300px] mx-auto flex flex-col justify-center items-center gap-8 py-8 2xl:px-0 px-10 '
