@@ -8,7 +8,9 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={'text-white w-full lg:px-[7.5rem] px-5'}>
+        <nav
+            className={'text-white w-full lg:px-[7.5rem] px-5 fixed top-0 z-50'}
+        >
             <div
                 className={
                     '2xl:flex hidden justify-between items-center py-8 relative'

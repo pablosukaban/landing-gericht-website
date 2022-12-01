@@ -4,7 +4,7 @@ import { images } from '../constants/index.js';
 
 const Header = () => {
     return (
-        <header className={'w-full text-white pt-12'}>
+        <header className={'w-full min-h-screen text-white pt-12'}>
             <div
                 className={
                     'flex lg:flex-row flex-col max-w-screen-2xl items-center px-[190px] mx-auto xl:gap-[180px] gap-10'
